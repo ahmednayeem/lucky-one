@@ -1,8 +1,6 @@
 .product{
     width: 265px;
     height: 510px;
-    margin-left:100px;
-    margin-top:80px;
     border:1px solid #ECEEF0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 8px;
@@ -17,6 +15,7 @@
     margin-top: 5px;
 }
 
+
 .btn-cart{
     width: 100%;
     background: #FFE0B3;
@@ -26,13 +25,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-   
-    
-
-   
+ 
 
     
 }
 .btn-cart:hover {
     background-color: orange;
 }
+
+    
