@@ -12,8 +12,8 @@ const Shop = () => {
         .then(data => setProduct(data))
     }, []);
     return (
-        <div className='shop-container'>
-           <div className='product-container mt-5'>
+        <div className='shop-container '>
+           <div className='product-container'>
              {
                    products.map(product => <Product 
                     key={product.id}
@@ -22,7 +22,7 @@ const Shop = () => {
                }  
            </div>
            <div className='cart-container mt-4'>
-               <h5>Order Summary</h5>
+               <h5 className='fw-bold fs-4'>Order Summary</h5>
            </div>
         </div>
     );
